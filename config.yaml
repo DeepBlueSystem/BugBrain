@@ -1,0 +1,12 @@
+world:
+  width: 800
+  height: 600
+  food_spawn_rate: 0.15
+
+creature:
+  speed: 0.5
+  size: 4
+  max_age: 200
+  reproduce_energy: 90
+  mutation_rate: 0.1
+  hidden_size: 8  # 神经网络隐藏层大小

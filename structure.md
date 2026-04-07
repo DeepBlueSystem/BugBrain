@@ -36,3 +36,23 @@ Application.py：项目入口，启动虚拟环境、初始化种群、运行进
 Env.py：虚拟环境，管理所有物体、物理规则、时间流逝
 Frog.py：青蛙实体，具体的人工生命体，继承 Animal，实现运动、进食、学习等行为
 
+
+
+```
+
+bug-life/
+├── main.py                # 项目入口，主循环
+├── config.yaml            # 配置文件（地图大小、生命属性、演化规则）
+├── core/                  # 核心层
+│   ├── creature.py        # 生命个体类
+│   ├── population.py      # 种群管理
+│   └── evolve.py          # 演化/突变算法
+├── env/                   # 环境层
+│   └── world.py           # 地图、环境规则
+├── visual/                # 可视化层
+│   └── render.py          # pygame渲染逻辑
+└── utils/                 # 工具层
+    ├── config.py          # 配置读取
+    └── logger.py          # 日志工具
+
+```
